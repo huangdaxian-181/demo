@@ -24,7 +24,7 @@
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 85%;">
 						<view class="nav_item">
-						    
+							<hm-goods-card :options="options"></hm-goods-card>
 						</view>
 					</scroll-view>
 				</swiper-item>
@@ -70,7 +70,12 @@
 </template>
 
 <script>
+	import HmGoodsCard from '@/components/hm-goods-card/index.vue'
+
 	export default {
+		components: {
+			HmGoodsCard
+		},
 		watch: {
 			// swiper与上面选项卡联动
 			currentindex(newval) {
@@ -84,6 +89,22 @@
 		},
 		data() {
 			return {
+				options: {
+					title: '热门产品',
+					titleimg: '/static/hm-goods-card/images/img_25335_0_0.png',
+					pic: '/static/hm-goods-card/images/img_25335_0_1.png',
+					tradeName: '圆形户外搁脚凳',
+					describe: '搁脚凳',
+					commodity: '凳子',
+					img: '/static/hm-goods-card/images/img_25335_0_2.png',
+					secondName: '深灰色翼背',
+					secondDescribe: '椅子第1版',
+					secondcommodity: '椅子',
+					smallItem: '/static/hm-goods-card/images/img_25335_0_3.png',
+					thirdName: '简易木端',
+					thirdDescribe: '小号桌',
+					thirdcommodity: '桌子',
+				},
 				isActive: 0,
 				index: 0,
 				currentindex: 0,
@@ -174,6 +195,9 @@
 						this.category[i].width = data[i].width
 					}
 				}).exec()
+			},
+			onClick: function(e) {
+				console.log('onClick');
 			},
 			// 当前点击子元素靠左留一个选项展示，子元素宽度不相同也可实现
 			chenked(index) {
@@ -330,6 +354,4 @@
 	/deep/.uni-scroll-view::-webkit-scrollbar {
 		display: none
 	}
-	
-	
 </style>
