@@ -23,43 +23,324 @@
 			<swiper @change="change" :current="isActive" class="swiper-content" :style="fullHeight">
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 85%;">
+						<view class="row2">
+							
+						</view>
 						<view class="nav_item">
-							<hm-goods-card :options="options"></hm-goods-card>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-0jal2800005hq73bfdbc_UNEX_DN1771-104-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Jordan Luka 1 PF
+								   男子篮球鞋
+							   </view>
+							   
+							   <view class="nav_item_list_good">
+							   	   白 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_good">
+							   	   ¥2
+							   </view>
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+                               <view class="nav_item_list_img">
+                               	    <img src="/static/hm-goods-card/images/img_25335_0_1.png" alt="" srcset="">
+                               </view>
+							   <view class="nav_item_list_title">
+								   【未来家】高科技凳子治疗腰痛腿痛
+								   高科技凳子治疗腰痛腿痛
+								   高科技凳子治疗腰痛腿痛
+							   </view>
+							   
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/18825531_41228356_600.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+							   	未来家】高科技凳子治疗腰痛腿痛
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/18544108_41206463_600.jpg" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+							   	未来家】高科技凳子治疗腰痛腿痛
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-07ig2800g3que45gh7bc_UNEX_DH4071-004-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Nike Air Zoom Pegasus 39
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-g3k9l9000s2m1mnn72bc_UNEX_DV1229-111-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Nike Air Force 1 '07 LV8
+
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+						</view>
+						
+						<view class="rows">
+							
 						</view>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 100%;">
 						<view class="nav_item">
-							选项卡2页面
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/hm-goods-card/images/img_25335_0_1.png" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   【未来家】高科技凳子治疗腰痛腿痛
+								   高科技凳子治疗腰痛腿痛
+								   高科技凳子治疗腰痛腿痛
+							   </view>
+							   
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/18825531_41228356_600.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+							   	未来家】高科技凳子治疗腰痛腿痛
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/18544108_41206463_600.jpg" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+							   	未来家】高科技凳子治疗腰痛腿痛
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-07ig2800g3que45gh7bc_UNEX_DH4071-004-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Nike Air Zoom Pegasus 39
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
+							
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-g3k9l9000s2m1mnn72bc_UNEX_DV1229-111-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Nike Air Force 1 '07 LV8
+							
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
 						</view>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 100%;">
 						<view class="nav_item">
-							选项卡3页面
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-g3k9l9000s2m1mnn72bc_UNEX_DV1229-111-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Nike Air Force 1 '07 LV8
+							
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
 						</view>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 100%;">
 						<view class="nav_item">
-							选项卡4页面
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/prod_NIKEOUTLETS_DIP-g3k9l9000s2m1mnn72bc_UNEX_DV1229-111-列表图-1.webp" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+								   Nike Air Force 1 '07 LV8
+							
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
 						</view>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 100%;">
 						<view class="nav_item">
-							选项卡5页面
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/18544108_41206463_600.jpg" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+							   	未来家】高科技凳子治疗腰痛腿痛
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
 						</view>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item class="swiperitem-content">
 					<scroll-view scroll-y style="height: 100%;">
 						<view class="nav_item">
-							选项卡6页面
+							<view class="nav_item_list">
+							   <view class="nav_item_list_img">
+							   	    <img src="/static/shi/18544108_41206463_600.jpg" alt="" srcset="">
+							   </view>
+							   <view class="nav_item_list_title">
+							   	未来家】高科技凳子治疗腰痛腿痛
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   黑 库存30件
+							   </view>
+							   <view class="nav_item_list_good">
+							   	   ¥900
+							   </view>
+							   
+							   <view class="nav_item_list_a">
+							   	 <img src="static/shi/购物车.png" alt="" srcset="">
+							   </view>
+							</view>
 						</view>
 					</scroll-view>
 				</swiper-item>
@@ -70,11 +351,9 @@
 </template>
 
 <script>
-	import HmGoodsCard from '@/components/hm-goods-card/index.vue'
-
 	export default {
 		components: {
-			HmGoodsCard
+
 		},
 		watch: {
 			// swiper与上面选项卡联动
@@ -89,22 +368,6 @@
 		},
 		data() {
 			return {
-				options: {
-					title: '热门产品',
-					titleimg: '/static/hm-goods-card/images/img_25335_0_0.png',
-					pic: '/static/hm-goods-card/images/img_25335_0_1.png',
-					tradeName: '圆形户外搁脚凳',
-					describe: '搁脚凳',
-					commodity: '凳子',
-					img: '/static/hm-goods-card/images/img_25335_0_2.png',
-					secondName: '深灰色翼背',
-					secondDescribe: '椅子第1版',
-					secondcommodity: '椅子',
-					smallItem: '/static/hm-goods-card/images/img_25335_0_3.png',
-					thirdName: '简易木端',
-					thirdDescribe: '小号桌',
-					thirdcommodity: '桌子',
-				},
 				isActive: 0,
 				index: 0,
 				currentindex: 0,
@@ -320,7 +583,7 @@
 	.swiper-content {
 		padding-top: 45px;
 		flex: 1;
-		border: 1px solid red;
+		
 
 		.swiperitem-content {
 			background-color: #ffffff;
@@ -328,6 +591,7 @@
 			.nav_item {
 				background-color: #FFFFFF;
 				margin-top: 10px;
+				width: 100%;
 			}
 		}
 	}
@@ -353,5 +617,68 @@
 	/* 隐藏滚动条，但依旧具备可以滚动的功能 */
 	/deep/.uni-scroll-view::-webkit-scrollbar {
 		display: none
+	}
+
+
+	.nav_item_list {
+		height: 160px;
+		width: 95%;
+		margin: 0 auto;
+		// display: flex;
+		// align-items: flex-start;
+		// flex-direction: column;
+		border-radius: 20px;
+        box-shadow: 0px 10px 30px rgb(168,168,168);
+		background-color: #ffffff;
+		margin-top: 10px;
+		
+	}
+	.nav_item_list_img{
+		width: 140px;
+		height: 130px;
+		float: left;
+		padding-left: 20px;
+		padding-top: 15px;
+	}
+	.nav_item_list_img img{
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		background-color: #EDF0F4;
+	}
+	.nav_item_list_title{
+		width: 40%;
+		height: 25%;
+		float: left;
+		padding-left: 10px;
+		padding-top: 30px;
+		font-size: 14px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+	
+	.nav_item_list_good{
+		width: 30%;
+		font-size: 14px;
+		float: left;
+		padding-left: 10px;
+		margin-top: 10px;
+		color: #757575;
+	}
+	
+	.nav_item_list_a{
+		width: 5%;
+		float: right;
+		padding-right: 30px;
+	}
+	
+	.rows{
+		height: 30px;
+	}
+	.row2{
+		height: 10px;
 	}
 </style>

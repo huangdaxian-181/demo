@@ -14,7 +14,39 @@
         </div>
       </div>
       <div class="row" />
-      <div class="row2">
+	  
+	  <div class="goods">
+	    <div class="wrap"><image class="pic" :src="options.pic" /></div>
+	    <div class="block">
+	      <text class="tradeName">{{ options.tradeName }}</text>
+	      <text class="describe">{{ options.describe }}</text>
+	      <text class="commodity">{{ options.commodity }}</text>
+	    </div>
+	  </div>
+	  
+	  <div class="row" />
+	  
+	  <div class="goods">
+	    <div class="wrap"><image class="pic" :src="options.pic" /></div>
+	    <div class="block">
+	      <text class="tradeName">{{ options.tradeName }}</text>
+	      <text class="describe">{{ options.describe }}</text>
+	      <text class="commodity">{{ options.commodity }}</text>
+	    </div>
+	  </div>
+	  
+	  <div class="row" />
+	  
+	  <div class="goods">
+	    <div class="wrap"><image class="pic" :src="options.pic" /></div>
+	    <div class="block">
+	      <text class="tradeName">{{ options.tradeName }}</text>
+	      <text class="describe">{{ options.describe }}</text>
+	      <text class="commodity">{{ options.commodity }}</text>
+	    </div>
+	  </div>
+	  
+<!--     <div class="row2">
         <div class="group"><image class="img" :src="options.img" /></div>
         <div class="container">
           <text class="secondName">{{ options.secondName }}</text>
@@ -22,8 +54,8 @@
           <text class="secondcommodity">{{ options.secondcommodity }}</text>
         </div>
       </div>
-      <div class="submain" />
-      <div class="main">
+      <div class="submain" /> -->
+    <!--  <div class="main">
         <div class="outer">
           <image class="smallItem" :src="options.smallItem" />
         </div>
@@ -32,7 +64,7 @@
           <text class="thirdDescribe">{{ options.thirdDescribe }}</text>
           <text class="thirdcommodity">{{ options.thirdcommodity }}</text>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
